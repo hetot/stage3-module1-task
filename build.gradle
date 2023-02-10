@@ -30,7 +30,7 @@ subprojects {
 task repack(type: Jar, dependsOn: ':module-main:build') {
     if (findProject(':module-main') != null) {
         entryCompression = ZipEntryCompression.STORED
-        def buildJar = zipTree("${project(':module-main').buildDir}/libs/module-main-all.jar")
+        def buildJar = zipTree("${project(':module-main').buildDir}/libs/module-main.jar")
         from(buildJar) { into('/') }
         manifest {
             attributes(
