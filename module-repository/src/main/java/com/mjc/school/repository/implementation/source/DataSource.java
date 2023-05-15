@@ -1,9 +1,9 @@
-package com.mjc.school.repository.source;
+package com.mjc.school.repository.implementation.source;
 
-import com.mjc.school.repository.models.AuthorModel;
-import com.mjc.school.repository.models.ContentModel;
-import com.mjc.school.repository.models.ContentModelJson;
-import com.mjc.school.repository.reader.NewsReader;
+import com.mjc.school.repository.implementation.models.AuthorModel;
+import com.mjc.school.repository.implementation.models.ContentModel;
+import com.mjc.school.repository.implementation.models.ContentModelJson;
+import com.mjc.school.repository.implementation.reader.NewsReader;
 
 import java.util.ArrayList;
 import java.util.List;

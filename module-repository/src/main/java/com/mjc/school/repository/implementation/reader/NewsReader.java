@@ -1,14 +1,12 @@
-package com.mjc.school.repository.reader;
+package com.mjc.school.repository.implementation.reader;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.mjc.school.repository.models.AuthorModel;
-import com.mjc.school.repository.models.ContentModelJson;
+import com.mjc.school.repository.implementation.models.AuthorModel;
+import com.mjc.school.repository.implementation.models.ContentModelJson;
 
 import java.io.*;
-import java.net.URL;
 import java.util.List;
-import java.util.Objects;
 
 public class NewsReader {
     private static final InputStream authorsFileName = NewsReader.class.getClassLoader().getResourceAsStream("authors.json");

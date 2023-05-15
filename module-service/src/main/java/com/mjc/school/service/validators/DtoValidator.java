@@ -1,6 +1,6 @@
 package com.mjc.school.service.validators;
 
-import com.mjc.school.repository.source.DataSource;
+import com.mjc.school.repository.implementation.source.DataSource;
 import com.mjc.school.service.dtoInterface.RequestInterface;
 import com.mjc.school.service.dtomodels.CreateRequest;
 import com.mjc.school.service.dtomodels.UpdateRequest;

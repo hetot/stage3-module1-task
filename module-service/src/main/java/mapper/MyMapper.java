@@ -1,8 +1,8 @@
 package mapper;
 
-import com.mjc.school.repository.models.AuthorModel;
-import com.mjc.school.repository.models.ContentModel;
-import com.mjc.school.repository.source.DataSource;
+import com.mjc.school.repository.implementation.models.AuthorModel;
+import com.mjc.school.repository.implementation.models.ContentModel;
+import com.mjc.school.repository.implementation.source.DataSource;
 import com.mjc.school.service.dtoInterface.RequestInterface;
 import com.mjc.school.service.dtomodels.*;
 

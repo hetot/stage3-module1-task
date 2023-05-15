@@ -1,4 +1,4 @@
-package com.mjc.school.repository.models;
+package com.mjc.school.repository.implementation.models;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 
