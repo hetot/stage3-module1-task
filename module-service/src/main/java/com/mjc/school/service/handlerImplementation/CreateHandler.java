@@ -1,7 +1,7 @@
 package com.mjc.school.service.handlerImplementation;
 
 import com.mjc.school.repository.implementation.models.ContentModel;
-import com.mjc.school.repository.implementation.source.DataSource;
+import com.mjc.school.repository.implementation.DataSource;
 import com.mjc.school.service.dtoInterface.RequestInterface;
 import com.mjc.school.service.dtoInterface.ResponseInterface;
 import com.mjc.school.service.dtomodels.CreateRequest;

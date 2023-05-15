@@ -1,4 +1,4 @@
-package com.mjc.school.repository.implementation.source;
+package com.mjc.school.repository.implementation;
 
 import com.mjc.school.repository.implementation.models.AuthorModel;
 import com.mjc.school.repository.implementation.models.ContentModel;
